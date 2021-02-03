@@ -1,0 +1,13 @@
+.d-flex{
+    display:flex;
+}
+
+/* justify-content */
+
+.jc{
+    justify-content: space-between;
+}
+
+.no-border{
+    border:0;
+}

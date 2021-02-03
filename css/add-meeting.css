@@ -1,0 +1,78 @@
+.btn1{
+    /* background-color: white; */
+    border-bottom-color:black;
+}
+
+.add-meeting-box{
+    border-radius: 4px;
+    margin-top: -2vh;;
+    height: 540px;
+}
+
+.meeting-header h2{
+    color: white;
+
+    padding: 2vh 0 2vh 2vw;
+}
+.meeting-header hr{
+    margin-top: -1.5vh;
+    margin-left: 2vw;
+}
+.meeting-header{
+    /* margin: 3vh 3vw 0 0; */
+    width: 98%;
+}
+
+.add-meeting-box-form{
+    width: 98%;
+    margin-left: 2vw;
+    margin-top:1.5vh;
+}
+
+.date{
+    margin-top: 1vh;
+    width: 97%;
+    border:0;
+    
+}
+
+select{
+    margin-top: 1vh;
+    border: 0;
+    width: 60px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+textarea{
+    
+    margin-top: 1vh;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.email{
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    width: 97%;
+
+
+}
+
+.submit{
+    border:0;
+    color: white;
+    background-color: #18A2B8;
+    width: 92px;
+    height: 30px;
+    margin-left: 2vw;
+    margin-top:1.5vh;
+}
+
+.add-meeting-box-form p{
+    margin-top: 0.5vh;
+    color: white;
+    font-size: 0.85rem;
+}

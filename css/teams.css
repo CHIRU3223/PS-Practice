@@ -1,0 +1,70 @@
+.teams-section{
+    width:100%;
+    /* margin-right: 100px; */
+    /* background-color: wheat; */
+    
+}
+
+
+.sub-head{
+    margin-top: 2vh;
+    opacity: 0.5;
+}
+.team-box{
+    padding: 0 1vw 0 1vw;
+    margin-right: 3vw;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    width: 30%;
+    border-radius: 3px;
+    /* margin-right:-100px; */
+}
+.team-box h2{
+    font-size: 1.25rem;
+    color: black;
+}
+.team-box hr{
+    margin: 1.5vh 0;
+}
+.team-box button{
+    margin: 1vh 0;
+    color: white;
+    background-color: #DC3545;
+    border:0;
+    border-radius: 3px;
+    width: 106px;
+    height: 28px;
+}
+
+.team-box form{
+    display: flex;
+
+}
+.team-box form .add-emails{
+    margin-top: 0vh;
+    width: 50%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+
+}
+.team-box form button{
+    color: white;
+    background-color: #18A2B8;
+    margin-top: 0;
+    margin-left: 4px;
+    width: 40px;
+    height: 30px;
+}
+
+.team-box .plus{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.plus-box{
+    margin-right: 0;
+    
+}
+
+

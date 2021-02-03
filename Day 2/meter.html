@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <style>
+        progress {
+            border-radius: 6px;
+            width: 100%;
+            background: crimson;
+        }
+/* 
+        progress {
+            color: lightblue;
+        } */
+
+        /* progress::-webkit-progress-value {
+            background: lightblue;
+        } */
+
+        /* progress::-moz-progress-bar {
+            background: lightcolor;
+        } */
+
+        progress::-webkit-progress-value {
+            background: red;
+        }
+
+        progress::-webkit-progress-bar {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- meter tag eg: download/upload in speedtest.net -->
+    <div>
+        <progress value="0" max="75" id="download-progress"></progress>
+    </div>
+    
+    <script>
+        const downloadProgress = document.getElementById("download-progress");
+        let id= setInterval(function(){
+            let currentValue = parseInt(downloadProgress.getAttribute('value'),10);
+        if(currentValue+10>=100){
+            clearInterval(id);
+            }
+            downloadProgress.setAttribute('value', currentValue+10);
+            console.log(currentValue+10);
+        },500);
+    </script>
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+</body>
+</html>

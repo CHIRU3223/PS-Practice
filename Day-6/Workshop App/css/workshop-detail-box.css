@@ -1,0 +1,27 @@
+main{
+    margin-left: 10vw;;
+}
+
+.main-h1{
+    font-size: 2rem;;
+}
+
+.workshop-content{
+    display: flex;
+    /* justify-content: ; */
+}
+
+.workshop-date{
+    margin: 2vh 5vw;
+    display: flex;
+    /* flex-direction: column; */
+}
+.img-responsive{
+    width: 25%;
+    height: 25%;
+}
+
+p{
+    margin: 4vh 5vw;
+    font-size: 1.2rem;;
+}

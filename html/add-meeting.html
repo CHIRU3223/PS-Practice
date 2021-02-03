@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/main-nav.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/add-meeting.css">
+    <title></title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links-left">
+            <li>
+                <a href="main-nav.html">Calender</a>
+            </li>
+            <li>
+                <a href="add-meeting.html" style="background-color: rgba(0,0,0,0.2); color: black">Meetings</a>
+            </li>
+            <li>
+                <a href="teams.html">Teams</a>
+            </li>
+            
+            
+        </ul>
+        <ul class="nav-links-right">
+            <li class="username">
+                <a href="#" >Hello, <span id="blue">Jane.doe@gmail.com</span></a>
+            </li>
+            <li class="logout">
+                <a href="#">Logout</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <!-- <img src="../images/calender-reference.PNG" alt="" width= "1000px"; height= "400px";> -->
+    <main>
+        <header>
+            <h1>Meetings</h1>
+            <hr>
+            <section class="">
+                <button class="no-border btn1" style="background-color: white;"><a href="filter-seach-meeting.html">Filter/Search Meetings</a></button>
+                <button class="btn2">Add a meeting</button>
+            </section>
+        </header>
+        <section>
+            <div class="box blue add-meeting-box">
+                <header class="meeting-header">
+                    <h2>Add a new meeting</h2>
+                    <hr style="color: black;">
+
+                </header>
+                <form action="">
+                    <section class="add-meeting-box-form">
+                        <label>Date</label>
+                        <input type="date" name="date" id="date" class="date">
+                    </section>
+                    <section class="add-meeting-box-form">
+                        <label>Start time (hh:mm)</label>
+                        
+                        <br><select class="no-border">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                            <option value="0">6</option>
+                            <option value="0">7</option>
+                            <option value="0">8</option>
+                            <option value="0">9</option>
+                            <option value="0">10</option>
+                            <option value="0">11</option>
+                            <option value="0">12</option>
+                            <option value="0">13</option>
+                            <option value="0">14</option>
+                            <option value="0">15</option>
+                            <option value="0">16</option>
+                            <option value="0">17</option>
+                            <option value="0">18</option>
+                            <option value="0">19</option>
+                            <option value="0">20</option>
+                        </select>
+                        :
+                        <select class="no-border">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                            <option value="0">6</option>
+                            <option value="0">7</option>
+                            <option value="0">8</option>
+                            <option value="0">9</option>
+                            <option value="0">10</option>
+                            <option value="0">11</option>
+                            <option value="0">12</option>
+                            <option value="0">13</option>
+                            <option value="0">14</option>
+                            <option value="0">15</option>
+                            <option value="0">16</option>
+                            <option value="0">17</option>
+                            <option value="0">18</option>
+                            <option value="0">19</option>
+                            <option value="0">20</option>
+                        </select>
+                    </section>
+                    <section class="add-meeting-box-form">
+                        <label>End time (hh:mm)</label>
+                       <br>
+                        <select class="no-border">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                            <option value="0">6</option>
+                            <option value="0">7</option>
+                            <option value="0">8</option>
+                            <option value="0">9</option>
+                            <option value="0">10</option>
+                            <option value="0">11</option>
+                            <option value="0">12</option>
+                            <option value="0">13</option>
+                            <option value="0">14</option>
+                            <option value="0">15</option>
+                            <option value="0">16</option>
+                            <option value="0">17</option>
+                            <option value="0">18</option>
+                            <option value="0">19</option>
+                            <option value="0">20</option>
+                        </select>
+                        :
+                        <select class="no-border">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                            <option value="0">6</option>
+                            <option value="0">7</option>
+                            <option value="0">8</option>
+                            <option value="0">9</option>
+                            <option value="0">10</option>
+                            <option value="0">11</option>
+                            <option value="0">12</option>
+                            <option value="0">13</option>
+                            <option value="0">14</option>
+                            <option value="0">15</option>
+                            <option value="0">16</option>
+                            <option value="0">17</option>
+                            <option value="0">18</option>
+                            <option value="0">19</option>
+                            <option value="0">20</option>
+                        </select>
+                    </section>
+
+                    <section class="add-meeting-box-form">
+                        <label for="description">Description</label>
+                        <br><textarea placeholder="What is the agenda of the meeting?" name="" id="" cols="172" rows="3"></textarea>
+                    </section>
+                    
+                    <section class="add-meeting-box-form">
+                        <label for="email">EmailIDs of  attendees, or team's short</label>
+                        <br>
+                        <input type="text" class="email" placeholder="john@example.com, @annual-day">
+                        <p>Separate emailids / team short names by commas</p>
+                    </section>
+
+                    <input type="submit" value="Add meeting" class="submit">
+                </form>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
